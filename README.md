@@ -24,13 +24,13 @@ left to fix and add. Please report bugs via GitHub or email me. My email address
 2. Kernel flashing is WIP
 
 3. List of currently supported devices are:
-⋅⋅ Nexus 4
-⋅⋅ Nexus 7
-⋅⋅ Nexus 10
-⋅⋅ Galaxy Nexus
-⋅⋅ Nexus S
-⋅⋅ Nexus One
-⋅⋅ HTC One
+⋅⋅* Nexus 4
+⋅⋅* Nexus 7
+⋅⋅* Nexus 10
+⋅⋅* Galaxy Nexus
+⋅⋅* Nexus S
+⋅⋅* Nexus One
+⋅⋅* HTC One
 
 If you have a HTC One, make sure the bootloader unlock key ("Unlock_code.bin") file is present in the root folder of the
 application else it will not be able to unlock your One's bootloader. I will be adding the support for extracting 
