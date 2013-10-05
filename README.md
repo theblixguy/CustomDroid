@@ -6,7 +6,7 @@ CustomDroid allows you to tweak your newly purchased phone. It can:
 1. Unlock the bootloader of your device
 2. Flash a custom recovery
 3. Flash a custom ROM
-4. Flash a custom kernel
+4. Flash a custom kernel [WIP]
 5. Root your device
 
 The user interface is like an installer and it makes the entire process, from bootloader unlocking to custom ROM,
@@ -30,6 +30,11 @@ left to fix and add. Please report bugs via GitHub or email me. My email address
 If you have a HTC One, make sure the bootloader unlock key ("Unlock_code.bin") file is present in the root folder of the
 application else it will not be able to unlock your One's bootloader. I will be adding the support for extracting 
 identifier token automatically in v2 to make it easy for you to obtain the bootloader unlock key. 
+
+# Requirements
+
+1. .NET Framework 4.5
+2. ADB/fastboot drivers
 
 # Download
 
