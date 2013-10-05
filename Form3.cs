@@ -43,18 +43,46 @@ namespace NexusInstaller
 
             if (flcr == false)
             {
-                if (System.IO.File.Exists("nexus_twrp.img") | System.IO.File.Exists("gnexus_twrp.img") | System.IO.File.Exists("nexus_s_twrp.img") | System.IO.File.Exists("nexus_one_twrp.img") | System.IO.File.Exists("htcone_twrp.img"))
+                if (System.IO.File.Exists("nexus_4_twrp.img") | System.IO.File.Exists("nexus_7_twrp.img") | System.IO.File.Exists("nexus_10_twrp.img") | System.IO.File.Exists("gnexus_twrp.img") | System.IO.File.Exists("nexus_s_twrp.img") | System.IO.File.Exists("nexus_one_twrp.img") | System.IO.File.Exists("htcone_twrp.img"))
                 {
                     switch (device)
                     {
 
-                        case "Nexus 4/7/10":
+                        case "Nexus 4":
                             label5.Visible = true;
                             button2.Enabled = false;
                             pictureBox3.Visible = true;
                             process2 = new Process();
                             process2.StartInfo.FileName = "fastboot.exe";
-                            process2.StartInfo.Arguments = "flash recovery nexus_twrp.img";
+                            process2.StartInfo.Arguments = "flash recovery nexus_4_twrp.img";
+                            process2.StartInfo.CreateNoWindow = true;
+                            process2.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                            process2.EnableRaisingEvents = true;
+                            process2.Exited += new EventHandler(myProcess_Exited);
+                            process2.Start();
+                            break;
+
+                        case "Nexus 7":
+                            label5.Visible = true;
+                            button2.Enabled = false;
+                            pictureBox3.Visible = true;
+                            process2 = new Process();
+                            process2.StartInfo.FileName = "fastboot.exe";
+                            process2.StartInfo.Arguments = "flash recovery nexus_7_twrp.img";
+                            process2.StartInfo.CreateNoWindow = true;
+                            process2.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                            process2.EnableRaisingEvents = true;
+                            process2.Exited += new EventHandler(myProcess_Exited);
+                            process2.Start();
+                            break;
+
+                        case "Nexus 10":
+                            label5.Visible = true;
+                            button2.Enabled = false;
+                            pictureBox3.Visible = true;
+                            process2 = new Process();
+                            process2.StartInfo.FileName = "fastboot.exe";
+                            process2.StartInfo.Arguments = "flash recovery nexus_10_twrp.img";
                             process2.StartInfo.CreateNoWindow = true;
                             process2.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                             process2.EnableRaisingEvents = true;
