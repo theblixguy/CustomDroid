@@ -38,4 +38,4 @@ identifier token automatically in v2 to make it easy for you to obtain the bootl
 
 # Download
 
-Download link: https://github.com/theblixguy/CustomDroid/releases/download/1/customdroid_exp_v1.7z
+Download link: https://github.com/theblixguy/CustomDroid/releases/download/1/customdroid_exp_v1.zip
