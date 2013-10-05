@@ -7,7 +7,7 @@ CustomDroid allows you to tweak your newly purchased phone. It can:
 2. Flash a custom recovery
 3. Flash a custom ROM
 4. Flash a custom kernel [WIP]
-5. Root your device
+5. Root your device [WIP]
 
 The user interface is like an installer and it makes the entire process, from bootloader unlocking to custom ROM,
 super easy and intuitive. 
@@ -21,7 +21,7 @@ experimental version of the app is now available for testing purposes.
 1. The app is in experimental stage so please don't say "It sucks" or "It bricked my device", there are still few things
 left to fix and add. Please report bugs via GitHub or email me. My email address is suyashsrijan at outlook dot com
 
-2. Kernel flashing is WIP
+2. Kernel flashing and rooting is WIP and will be ready by v2
 
 3. List of currently supported devices are: Nexus 4, Nexus 7, Nexus 10, Galaxy Nexus, Nexus S, Nexus One and HTC One.
 
