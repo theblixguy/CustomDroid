@@ -9,7 +9,7 @@ CustomDroid allows you to tweak your newly purchased phone. It can:
 4. Flash a custom kernel
 5. Root your device
 
-The user intrface is like an installer and it makes the entire process, from bootloader unlocking to custom ROM,
+The user interface is like an installer and it makes the entire process, from bootloader unlocking to custom ROM,
 super easy and intuitive. 
 
 This project was inspired by CM Installer. Since CM Installer was limited (and could only flash a CM ROM), I thought
