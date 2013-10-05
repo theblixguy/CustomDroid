@@ -30,3 +30,7 @@ left to fix and add. Please report bugs via GitHub or email me. My email address
 If you have a HTC One, make sure the bootloader unlock key ("Unlock_code.bin") file is present in the root folder of the
 application else it will not be able to unlock your One's bootloader. I will be adding the support for extracting 
 identifier token automatically in v2 to make it easy for you to obtain the bootloader unlock key. 
+
+# Download
+
+Download link: https://github.com/theblixguy/CustomDroid/releases/download/1/customdroid_exp_v1.7z
