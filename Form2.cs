@@ -76,8 +76,8 @@ namespace NexusInstaller
              */
 
             switch (comboBox1.SelectedText) { 
-                case "Nexus 4/7/10":
-                Properties.Settings.Default.defphn = "Nexus 4/7/10";
+                case "Nexus 4":
+                Properties.Settings.Default.defphn = "Nexus 4";
                 Properties.Settings.Default.Save();
                 process1 = new Process();
                 process1.StartInfo.FileName = "fastboot.exe";
@@ -86,6 +86,30 @@ namespace NexusInstaller
                 process1.Start();
                 timer2.Enabled = true;
                 timer1.Enabled = false; 
+                break;
+
+                case "Nexus 7":
+                Properties.Settings.Default.defphn = "Nexus 7";
+                Properties.Settings.Default.Save();
+                process1 = new Process();
+                process1.StartInfo.FileName = "fastboot.exe";
+                process1.StartInfo.Arguments = "oem unlock";
+                process1.StartInfo.CreateNoWindow = true;
+                process1.Start();
+                timer2.Enabled = true;
+                timer1.Enabled = false;
+                break;
+
+                case "Nexus 10":
+                Properties.Settings.Default.defphn = "Nexus 10";
+                Properties.Settings.Default.Save();
+                process1 = new Process();
+                process1.StartInfo.FileName = "fastboot.exe";
+                process1.StartInfo.Arguments = "oem unlock";
+                process1.StartInfo.CreateNoWindow = true;
+                process1.Start();
+                timer2.Enabled = true;
+                timer1.Enabled = false;
                 break;
 
                 case "Galaxy Nexus":
